@@ -1,3 +1,5 @@
+import features.DijkstraClass
+
 fun main(args: Array<String>) {
 
     val dijkstra = DijkstraClass(6)

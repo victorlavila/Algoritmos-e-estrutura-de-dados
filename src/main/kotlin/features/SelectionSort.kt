@@ -1,4 +1,4 @@
-/*
+package features/*
 A ordenação por seleção é um algoritmo simples de entender e implementar, mas é relativamente ineficiente.
 A complexidade de tempo da ordenação por seleção é O(n²),
 o que significa que o tempo de execução do algoritmo é proporcional ao quadrado do tamanho do array.

@@ -1,4 +1,4 @@
-/*
+package features/*
 Uma função recursiva é aquele que chama a ela mesmo.
 Ela não propriamente performa melhor, mas sem dúvida é um meio simples e elegante de implementação.
 */

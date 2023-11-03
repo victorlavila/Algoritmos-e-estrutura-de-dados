@@ -1,4 +1,4 @@
-
+package features
 /*
 O tempo logaritmo é um tipo de complexidade de tempo que é proporcional ao logaritmo do tamanho do problema.
 Em outras palavras, o tempo de execução de um algoritmo de tempo logaritmo aumenta de forma lenta à medida
