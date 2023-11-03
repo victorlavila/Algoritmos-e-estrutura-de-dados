@@ -1,18 +1,17 @@
-import features.DijkstraClass
+import features.GreedyCode
+import features.Item
 
-fun main(args: Array<String>) {
+fun main() {
 
-    val dijkstra = DijkstraClass(6)
+    val greedyCode = GreedyCode()
+    val knapsackCapacity = 15.0
 
-    dijkstra.addEdge(0, 1, 4)
-    dijkstra.addEdge(0, 2, 2)
-    dijkstra.addEdge(1, 2, 5)
-    dijkstra.addEdge(1, 3, 10)
-    dijkstra.addEdge(2, 3, 3)
-    dijkstra.addEdge(2, 4, 2)
-    dijkstra.addEdge(3, 4, 7)
-    dijkstra.addEdge(3, 5, 8)
-    dijkstra.addEdge(4, 5, 2)
+    val items = listOf(
+        Item(5.0, 10.0),
+        Item(3.0, 7.0),
+        Item(8.0, 15.0)
+    )
 
-    dijkstra.dijkstra(0)
+    val maxValue = greedyCode.fractionalKnapsack(knapsackCapacity, items)
+    println("Maximum value in de knapsack: ${maxValue.toInt()}")
 }
