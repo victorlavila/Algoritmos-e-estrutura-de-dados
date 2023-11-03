@@ -1,3 +1,5 @@
+package features
+
 import java.util.HashMap
 
 class HashClass {
